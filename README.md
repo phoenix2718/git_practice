@@ -1,10 +1,7 @@
-# git_practice
-Practice how to use git and github
-
 # Create a new repository
 
 ## 1. Make a new repository in GitHub
-I made a new repository named as 'git_practice'. Then, I got the repository on ''https://github.com/phoenix2718/git_practice'.  
+I made a new repository named as 'git_practice'. Then, I got the repository on 'https://github.com/phoenix2718/git_practice'.  
 
 ## 2. Clone the repository on your local directory
 ```
@@ -28,7 +25,7 @@ git remote -v
 ```
 
 ## 4. Push new files into the new repository.
-After you added some files in the local directory, you would like to add the new files into the repository in the GitHub server. 
+iAfter you added some files in the local directory, you would like to add the new files into the repository in the GitHub server. 
 First, add all files to the list to commit. '.' means all files in the present working directory.
 ```
 git add <file>
