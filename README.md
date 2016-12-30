@@ -28,11 +28,22 @@ git remote -v
 ```
 
 ## 4. Push new files into the new repository.
-After you added some files in the local directory, you would like to add the new files into the repository in the GitHub server. Then, you can use the command like below.
+After you added some files in the local directory, you would like to add the new files into the repository in the GitHub server. 
+First, add all files to the list to commit. '.' means all files in the present working directory.
+```
+git add <file>
+git add .
+```
+Second, make a commit of all files with a message.
+```
+git commit -a -m <string message>
+git commit -a -m "String message"
+```
+Third, push the commit to the remote directory in GitHub.
 ```
 git push <connection name> <user name>
 git push git_practice master
 ```
-Once you enter the command, you should type GitHub ID and password to push.
+Once you enter the command, you should type GitHub ID and password to push. Then, you can find that the new files are added in 'https://github.com/phoenix2718/git_practice'.
 
 
