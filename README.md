@@ -24,8 +24,8 @@ We can check what connections exist by typing as follows.
 git remote -v
 ```
 
-### 1.4. Push new files into the new repository.
-iAfter you added some files in the local directory, you would like to add the new files into the repository in the GitHub server. 
+### 1.4. Push new files into the remote repository.
+After you added some files in the local directory, you would like to add the new files into the repository in the GitHub server. 
 First, add all new files to the list to commit. '.' means all files in the present working directory. The following command is needed only if there are newly added files.
 ```
 git add <file>
@@ -34,12 +34,40 @@ git add .
 Second, make a commit of all files with a message.
 ```
 git commit -a -m <string message>
-git commit -a -m "String message"
+git commit -a -m "Something has been updated."
 ```
 Third, push the commit to the remote directory in GitHub.
 ```
 git push <connection name> <user name>
 git push git_practice master
 ```
-Once you enter the command, you should type GitHub ID and password to push. Then, you can find that the new files are added in 'https://github.com/phoenix2718/git_practice'.
+Once you enter the command, you should type GitHub ID and password to push. Then, you can find that the new files have been added in 'https://github.com/phoenix2718/git_practice'.
 
+## 2. Update existing files.
+
+### 2.1. Move to the working directory
+Change the working directory to the local directory.
+```
+cd <folder name>
+cd git_practice
+```
+
+### 2.2. Check the connection with the remote repository in GitHub.
+Check what connections exist by typing as follows.
+```
+git remote -v
+```
+You can see connection names with their URL.
+
+### 2.3. Push updated files into the remote repository.
+Make a commit of all files with a message.
+```
+git commit -a -m <string message>
+git commit -a -m "Something has been updated."
+```
+Then, push the commit to the remote directory in GitHub.
+```
+git push <connection name> <user name>
+git push git_practice master
+```
+Once you enter the command, you should type GitHub ID and password to push. Then, you can find that the updated files have been updated in 'https://github.com/phoenix2718/git_practice'.
