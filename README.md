@@ -26,7 +26,7 @@ git remote -v
 
 ### 1.4. Push new files into the new repository.
 iAfter you added some files in the local directory, you would like to add the new files into the repository in the GitHub server. 
-First, add all files to the list to commit. '.' means all files in the present working directory.
+First, add all new files to the list to commit. '.' means all files in the present working directory. The following command is needed only if there are newly added files.
 ```
 git add <file>
 git add .
@@ -42,5 +42,4 @@ git push <connection name> <user name>
 git push git_practice master
 ```
 Once you enter the command, you should type GitHub ID and password to push. Then, you can find that the new files are added in 'https://github.com/phoenix2718/git_practice'.
-
 
