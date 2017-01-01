@@ -71,3 +71,24 @@ git push <connection name> <user name>
 git push git_practice master
 ```
 Once you enter the command, you should type GitHub ID and password to push. Then, you can find that the updated files have been updated in 'https://github.com/phoenix2718/git_practice'.
+
+## 3. Removing a remote
+View current remotes.
+```
+$ git remote -v
+origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+origin  https://github.com/OWNER/REPOSITORY.git (push)
+destination  https://github.com/FORKER/REPOSITORY.git (fetch)
+destination  https://github.com/FORKER/REPOSITORY.git (push)
+```
+Delete the remote 'destination'.
+```
+$ git remote rm destination
+```
+Check current remotes.
+```
+$ git remote -v
+origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+origin  https://github.com/OWNER/REPOSITORY.git (push)
+```
+
