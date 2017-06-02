@@ -1,7 +1,9 @@
 # 1. Git initial settings
 ## 1.1. Set a local GitHub home folder
-The GitHub home folder 
-
+Set the present working directory as the GitHub home folder 
+```
+git init
+```
 # 2. Create a new repository
 
 ## 2.1. Make a new repository in GitHub
