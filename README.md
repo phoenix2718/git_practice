@@ -78,7 +78,9 @@ git push git_practice master
 ```
 Once you enter the command, you should type GitHub ID and password to push. Then, you can find that the updated files have been updated in 'https://github.com/phoenix2718/git_practice'.
 
-# 4. Removing a remote
+# 4. Fetch updated files
+
+# 5. Removing a remote
 View current remotes.
 ```
 $ git remote -v
