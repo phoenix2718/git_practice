@@ -34,7 +34,7 @@
   * curl -L https://tinyurl.com/zeyq9vc | grep -c fish
     * Counts the number of 'fish' in the page
 * variables
-  * There are 3 types of variabels used in the shell: local variables, environment variables, and shell variables.
+  * There are __3 types of variables used in the shell__: local variables, environment variables, and shell variables.
   * numbers='This is a message.'
     * Variable assignment
     * 'numbers' is a __local variable__.
