@@ -1,4 +1,4 @@
-# Shell Reminder
+# UNIX Shell Reminder
 ## Essential Commands
 * echo
 * ;
