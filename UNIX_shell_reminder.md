@@ -104,3 +104,9 @@
 # 3 References
 * [Shell Workshop | Udacity](https://classroom.udacity.com/courses/ud206)
 * [Unix - What is Shells? | Tutorialspoint](https://www.tutorialspoint.com/unix/unix-what-is-shell.htm)
+
+# 4 Further reading
+* [The Bash Academy](http://www.bash.academy/)
+* [Bash Beginners Guide](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/)
+* [Bash Programming HOWTO](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html) 
+* [Regexr — Learn Regular Expressions](http://regexr.com/)
