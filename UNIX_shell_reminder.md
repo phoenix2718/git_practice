@@ -1,5 +1,5 @@
 # UNIX Shell Reminder
-## Essential Commands
+## 1 Essential Commands
 * echo
 * ;
 * pwd
@@ -58,14 +58,14 @@
     * PATH is set to be default after exiting the shell.
   * help(command)
 
-## Other things about the shell
-### Shell programmging
+## 2 Other things about the shell
+### 2.1 Shell programmging
 * A __shell script__ is a file that contains shell commands.
 * Writing shell scripts is called __shelling programming__.
 * Make \*.sh that contains the set of commands.
 * Type ./\*.sh. Then the commands in the file are executed in order.
 
-### Customizing the shell. Shell configuration files. Startup files.
+### 2.2 Customizing the shell. Shell configuration files. Startup files.
 * The shell in every terminal you open will run the commands in the file called '.bash_profile'(Mac, Windows) or '.bashrc'(Linux).
 * Git Bash in Windows runs '.bash_profile' right after the shell has run.
 * I found '.bash_profile' in the directory '/c/Users/{user_name}', which is the home directory of Windows.
@@ -76,7 +76,7 @@
   ```
 * This command runs the file '.bashrc'. Then, by editing '.bashrc' we can set the customized environment.
 
-### Shell prompt design
+### 2.3 Shell prompt design
 * You can design your prompt as you want. You just put into PS1 how to change the prompt.
   ```
   $ PS1='$ '
@@ -84,7 +84,7 @@
 * You can design your prompt in the site http://bashrcgenerator.com/.
 * By putting the statement of setting PS1 in '.bashrc', you can use your design as the default setting.
     
-### Make a long command shorter!
+### 2.4 Make a long command shorter!
 * Using __alias__ command, you can make a long command shorter.
   ```
   $ alias ll='ls -la'
@@ -101,6 +101,6 @@
   alias ll='ls -la'
   ```
 
-# References
+# 3 References
 * [Shell Workshop | Udacity](https://classroom.udacity.com/courses/ud206)
 * [Unix - What is Shells? | Tutorialspoint](https://www.tutorialspoint.com/unix/unix-what-is-shell.htm)
