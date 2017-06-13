@@ -78,7 +78,13 @@ git push git_practice master
 ```
 Once you enter the command, you should type GitHub ID and password to push. Then, you can find that the updated files have been updated in 'https://github.com/phoenix2718/git_practice'.
 
-# 4. Fetch updated files
+# 4. Pull updated files
+Update the git directory to the recent one.
+```
+git pull <remote-name> <branch name>
+git pull origin master
+```
+
 
 # 5. Removing a remote
 View current remotes.
