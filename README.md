@@ -1,5 +1,13 @@
 # 1. Git initial settings
-## 1.1. Set a local GitHub home folder
+
+## 1.1. Configure username and email
+```
+$ git config --global user.name "phoenix2718"
+$ git config --global user.email "phoenix2718@gmail.com"
+```
+These name and email are not related to the GitHub account.
+
+## 1.2. Set a local GitHub home folder
 Set the present working directory as the GitHub home folder 
 ```
 git init
