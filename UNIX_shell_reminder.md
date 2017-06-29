@@ -57,6 +57,16 @@
     * Add a new directory to PATH.
     * PATH is set to be default after exiting the shell.
   * help(command)
+  * screen
+    * screen -list
+      * See the list of screen processes.
+    * screen -S screen_name
+      * Start a screen process.
+    * kill pid_screen_name
+      * You can find the pid of the screen from 'screen -list' command. 
+    * Ctrl + A + D
+      * Return to the parent screen
+      * There exists the only one parent screen. The rest of screens are child screens.
 
 ## 2 Other things about the shell
 ### 2.1 Shell programmging
